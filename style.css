@@ -1,13 +1,13 @@
 body {
 	background-color: #e3e7ed;
 	color: #262e47;
-	font-family: Verdana, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
 	font-size: 1.1em;
 	text-align: center;
 }
 
 .container {
-	width: 60%;
+	width: 50%;
 	margin: auto;
 	padding: 15px;
 }
@@ -20,6 +20,11 @@ body {
 	text-align: left;
 }
 
+.author {
+	text-align: right;
+}
+
 p {
 	text-align: left;
+	font-size: 0.8em;
 }

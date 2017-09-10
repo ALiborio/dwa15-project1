@@ -1,0 +1,13 @@
+body {
+	background-color: #e3e7ed;
+	color: #262e47;
+	font-family: Verdana, sans-serif;
+	font-size: 1.1em;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+p {
+	text-align: left;
+}

@@ -1,5 +1,5 @@
 body {
-	background-color: #e3e7ed;
+	background-color: #62717f;
 	color: #262e47;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 1.1em;
@@ -7,21 +7,26 @@ body {
 }
 
 .container {
-	width: 50%;
+	background-color: #e3e7ed;
+	width: 60%;
 	margin: auto;
 	padding: 15px;
 }
 
 .quote {
-	width: 75%;
+	width: 65%;
 	margin: auto;
-	padding: 10px;
+	padding-left: 20px;
 	border-left: 3px solid rgba(180,180,250,0.7);
 	text-align: left;
 }
 
 .author {
 	text-align: right;
+}
+
+h1 {
+	margin: 10px;
 }
 
 p {

@@ -1,20 +1,22 @@
-<?php require('quote.php'); ?>
+<?php include('quote.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Adam Liborio</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta http-equiv="refresh" content="30">
 </head>
 <body>
 <div class="container">
 	<h1>Adam Liborio</h1>
 	<img src="images/adamliborio.jpg" alt="My Headshot">
-	<h2>About Me</h2>
+	<h3>About Me</h3>
 	<p>
-		I'm a software developer working on enterprise medical software. I've dabbled in game development on both mobile and PC. I've enrolled the Dynamic Web Applications course to further my web development skills. I look forward to learning the skills necessary to develop truly dynamic web applications that can be used in the real world.
+		I'm from Dartmouth, MA but I currently reside in Fall River, MA. I received my Bachelor's of Science in Computer and Information Science from UMass Dartmouth. I'm currently a software developer at a medical software company. Previously, I was the co-founder of a independent game development studio, where I programmed three games that were released on iOS and Android. My current work involves working with various proprietary programming languages.
 	</p>
-	<h2>Random Quote</h2>
+	<p>
+		I consider myself a life-long learner. I have a passion for learning new technologies and concepts. My goals for taking the Dynamic Web Applications course is to learn more about back-end web development and make me a more well-rounded developer. 
+	</p>
+	<h3>Random Quote</h3>
 	<div class="quote">
 		<?php echo getQuote($index); ?>
 		<div class='author'>
